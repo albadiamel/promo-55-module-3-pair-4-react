@@ -3,11 +3,16 @@ import logoReact from '../images/react.svg'
 import '../styles/app.css'
 
 const App = () => {
-  console.log(logoReact)
+  const [darkMode,setDarkMode] = useState();
+  const handleClick = () => {
+
+  }
+  console.log(button)
   return (
     <div>
-      <p className="title">Hola, este es mi primer párrafo</p>
-      <img src={logoReact} alt="React logo" className="logo" />
+      <button className = "button">Des/activar el dark mode</button>
+      <p className = "first-p">Tienes activado el dark mode</p>
+      <p className = "second-p"> lorem ipsum</p>
     </div>
   )
 }
