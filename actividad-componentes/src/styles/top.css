@@ -1,0 +1,62 @@
+.page__header {
+    padding: 20px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+/* Mobile */
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed;
+}
+
+.menu-hamburger {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+}
+
+.logo {
+    max-width: 90%;
+    height: auto;
+}
+
+/* texto y botón del header */
+.first-module {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 74px;
+    margin-top: 250px;
+    color: #0c474b;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.buy-button {
+    width: 180px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: #0c474b;
+    &:hover {
+        background-color: #FF975A;
+        color: #0c474b;
+    }
+}
+
+
+

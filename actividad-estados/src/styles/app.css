@@ -1,0 +1,14 @@
+.title {
+  font-size: 30px;
+}
+
+/* Clase para el dark mode */
+.dark { 
+  background-color: black;
+  color: white;
+}
+/* Clase para el light mode */
+.light {
+  background-color: white;
+  color: black
+}
